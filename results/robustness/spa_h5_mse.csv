@@ -1,0 +1,4 @@
+block,T_SPA,SPA_p,best_model,best_tstat
+5,0.0603,0.7433,Chronos,0.0603
+10,0.0586,0.739,Chronos,0.0586
+20,0.0618,0.7033,Chronos,0.0618

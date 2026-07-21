@@ -1,0 +1,9 @@
+(A) Engle-Granger: do co gian dai han beta = 1.0142 (t = 192.93)
+    ADF phan du: stat = -2.203, p = 0.2052 -> CHUA ro dong lien ket
+(B) ECM: toc do dieu chinh alpha = -0.0102 (t = -2.85) -> hoi tu ve can bang
+(C) Johansen trace stat = 7.66 (crit 5% = 15.49) -> khong
+    VECM alpha (toc do dieu chinh) = [-0.0037  0.0073]
+(D) Gregory-Hansen: ADF* nho nhat = -3.742 tai chi so 858
+(E) Granger ONI -> ret (lag1): p = 0.0430 -> co nhan qua Granger
+(F) Tuong tac ONI x ElNino: he so = 0.0043 (p = 0.0054) [Newey-West HAC, lag 5]
+    So ngay ElNino (oni>=0.5): 367

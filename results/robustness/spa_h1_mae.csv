@@ -1,0 +1,4 @@
+block,T_SPA,SPA_p,best_model,best_tstat
+5,0.0,0.5887,ETS,-0.3455
+10,0.0,0.588,ETS,-0.3323
+20,0.0,0.5607,ETS,-0.3188

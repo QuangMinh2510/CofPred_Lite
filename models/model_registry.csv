@@ -1,0 +1,5 @@
+﻿model,horizon,mode,MAE,RMSE,MAPE_pct,DA_pct,test_rows,trained_until,latest_prediction,model_path,prediction_path
+LinearRegression,1,delta,2669.9743067812415,3636.7686934451062,2.336406022253641,45.36423841059602,302,2025-12-31,97722.28717829139,models/model_linearregression_h1_delta.joblib,results/preds/web/preds_linearregression_h1_delta.csv
+RandomForest,1,delta,2750.3960951849385,4502.051959129202,2.3036219761520567,49.668874172185426,302,2025-12-31,97053.40894642856,models/model_randomforest_h1_delta.joblib,results/preds/web/preds_randomforest_h1_delta.csv
+RandomForest,21,delta,9221.669973958333,11809.412333080054,8.341283498296235,57.0945945945946,296,2025-12-31,102874.77689285715,models/model_randomforest_h21_delta.joblib,results/preds/web/preds_randomforest_h21_delta.csv
+LinearRegression,21,delta,13117.210503329017,17121.076653976266,12.209195201674302,44.25675675675676,296,2025-12-31,103565.05667454051,models/model_linearregression_h21_delta.joblib,results/preds/web/preds_linearregression_h21_delta.csv

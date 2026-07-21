@@ -1,0 +1,61 @@
+# ============================================================
+# CofPred - Coffee Price Prediction Project
+# Requirements
+# ============================================================
+
+# --- Thu thập dữ liệu thời tiết (Open-Meteo) ---
+openmeteo-requests
+requests-cache
+retry-requests
+
+# --- HTTP & API ---
+requests
+
+# --- Xử lý & phân tích dữ liệu ---
+numpy
+pandas
+tqdm
+
+# --- Machine Learning ---
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+scipy
+
+# --- Time Series (Statistical) ---
+pmdarima              # AutoARIMA, SARIMA
+arch                  # GARCH / ARIMA-GARCH
+
+# --- Time Series (Deep Learning) ---
+neuralforecast        # NHITS, NBEATSx
+
+# --- Foundation Model (Zero-shot Forecasting) ---
+# Cai qua: pip install chronos-forecasting
+chronos-forecasting   # Amazon Chronos (chronos-bolt-base)
+
+# --- PyTorch (CUDA 12.8 build — danh cho GPU NVIDIA) ---
+# Cai qua index rieng (KHONG dung pip install thong thuong):
+#   pip install torch torchvision torchaudio \
+#       --index-url https://download.pytorch.org/whl/cu128
+# Phien ban da kiem tra: torch==2.11.0+cu128
+# Neu may khong co GPU: pip install torch  (ban CPU binh thuong)
+
+# --- Notebook ---
+jupyter
+ipykernel
+
+# --- Visualization ---
+matplotlib
+seaborn
+
+# --- Web scraping ---
+curl-cffi
+beautifulsoup4
+lxml
+
+# --- Financial data ---
+yfinance
+
+# --- File formats ---
+openpyxl
