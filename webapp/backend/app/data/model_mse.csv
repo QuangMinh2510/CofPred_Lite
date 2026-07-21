@@ -1,0 +1,24 @@
+family,model,h1,h5,h21,h63
+Naive,RandomWalk,14.53,31.22,129.6,399.1
+Classical,ARIMA,14.67,35.28,189.7,877.5
+Classical,ARIMAX,15.11,34.81,171.4,666.5
+Classical,AutoARIMA,14.98,38.23,181.1,873.2
+Classical,SARIMAX,15.16,35.33,175.5,756.9
+Classical,VECM,14.75,35.48,182.5,725.0
+Smoothing,ETS,14.76,39.06,152.8,411.2
+Smoothing,Theta,14.58,31.25,130.0,396.3
+Smoothing,Combination,14.65,33.72,137.4,387.3
+Machine learning,Ridge,20.54,54.22,200.4,640.8
+Machine learning,Lasso,20.50,54.23,224.7,658.8
+Machine learning,ElasticNet,20.51,54.38,197.9,595.7
+Machine learning,RandomForest,20.78,52.40,186.5,691.9
+Machine learning,XGBoost,17.35,47.96,177.2,655.4
+Machine learning,LightGBM,19.37,52.95,170.3,628.2
+Machine learning,SVR,14.27,43.51,162.8,445.5
+Machine learning,kNN,37.14,67.60,171.9,578.8
+Deep learning,LSTM,18.47,71.50,271.2,691.0
+Deep learning,GRU,16.47,39.32,208.1,975.2
+Deep learning,NHITS,,44.07,191.2,1341
+Deep learning,NBEATSx,,39.31,203.8,1406
+Foundation,Chronos,14.81,31.15,128.5,392.7
+
