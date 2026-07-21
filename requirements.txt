@@ -1,61 +1,42 @@
-# ============================================================
-# CofPred - Coffee Price Prediction Project
-# Requirements
-# ============================================================
+# Research pipeline dependencies. The full-stack web has its own files at
+# webapp/backend/requirements.txt and webapp/frontend/package.json.
 
-# --- Thu thập dữ liệu thời tiết (Open-Meteo) ---
+# Legacy Streamlit dashboard
+streamlit>=1.40
+joblib>=1.4
+
+# Data collection and processing
 openmeteo-requests
 requests-cache
 retry-requests
-
-# --- HTTP & API ---
 requests
-
-# --- Xử lý & phân tích dữ liệu ---
 numpy
 pandas
 tqdm
 
-# --- Machine Learning ---
+# Machine learning and statistics
 scikit-learn
 xgboost
 lightgbm
 statsmodels
 scipy
+pmdarima
+arch
 
-# --- Time Series (Statistical) ---
-pmdarima              # AutoARIMA, SARIMA
-arch                  # GARCH / ARIMA-GARCH
+# Deep learning and foundation model
+neuralforecast
+chronos-forecasting
 
-# --- Time Series (Deep Learning) ---
-neuralforecast        # NHITS, NBEATSx
-
-# --- Foundation Model (Zero-shot Forecasting) ---
-# Cai qua: pip install chronos-forecasting
-chronos-forecasting   # Amazon Chronos (chronos-bolt-base)
-
-# --- PyTorch (CUDA 12.8 build — danh cho GPU NVIDIA) ---
-# Cai qua index rieng (KHONG dung pip install thong thuong):
-#   pip install torch torchvision torchaudio \
-#       --index-url https://download.pytorch.org/whl/cu128
-# Phien ban da kiem tra: torch==2.11.0+cu128
-# Neu may khong co GPU: pip install torch  (ban CPU binh thuong)
-
-# --- Notebook ---
+# Notebook and visualisation
 jupyter
 ipykernel
-
-# --- Visualization ---
 matplotlib
 seaborn
 
-# --- Web scraping ---
+# Scraping and financial data
 curl-cffi
 beautifulsoup4
 lxml
-
-# --- Financial data ---
 yfinance
-
-# --- File formats ---
 openpyxl
+
